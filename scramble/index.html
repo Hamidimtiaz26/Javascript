@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scramble Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-content">
+        <!-- This is used to show message on screen whenever user guess it right,wrong or if time passed out then it will show failed message -->
+        <div class="show-message">
+          <div class="wrong-guess">You guess wrong answer</div>
+          <div class="failed">Failed to guess</div>
+          <div class="success">You guess a right answer</div>
+        </div>
+        <div class="card-main-content">
+          <h1 class="card__heading">Guess a city name</h1>
+          <p class="show-question">
+            Hamid
+          </p>
+          <div class="card__form">
+            <form class="form">
+              <input type="text" placeholder="Enter you answer" class="form__input-text">
+              <p class="show-time"></p>
+              <div class="buttons">
+                <button type="submit" class="submitBtn btn">Submit</button>
+                <button type="button" class="refreshBtn btn">Refresh</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

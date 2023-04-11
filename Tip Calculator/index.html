@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tip Calculator Better Version</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+  <section class="section ">
+  <div class="container ">
+  <div class="columns">
+    <div class="column is-half is-offset-one-quarter">
+  <div class="card has-background-dark">
+    <header class="card-header">
+      <p class="card-header-title has-text-info is-size-2">
+        Tip Calculator
+      </p>
+    </header>
+    <div class="card-content">
+      <div class="content">
+        <label for="billAmount" class="has-text-white">Bill Amount</label>
+  <input type="text" id="billAmount" name="billAmount" placeholder="Enter a Bill Amount" class="input is-info is-medium is-rounded my-3">
+  <label for="tipPercentage" class="has-text-white">Tip in %</label>
+  <input type="text" name="tip in percentage" id="tipPercentage" placeholder="Enter tip" class="input is-info       is-medium is-rounded my-3">
+  <div class="my-4">
+    <p class="has-text-white">Add or Subtract persons by pressing buttons</p>
+  <button id="add" class="button is-primary">Add</button>
+  <span id="personDisplay" class="mx-2 has-text-white">1</span>
+  <button id="subtract" class="button is-primary">Subtract</button>
+</div>
+  <h2 class="has-text-white">Total Bill Amount:</h2>
+  <span id="result" class="has-text-primary is-size-4">0</span>
+      </div>
+    </div>
+  
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+
+  <!-- <h1>Tip Calculator</h1>
+  <label for="billAmount">Bill Amount</label>
+  <input type="text" id="billAmount" name="billAmount" placeholder="Enter a Bill Amount" class="input is-info is-medium is-rounded">
+  <label for="tipPercentage">Tip in %</label>
+  <input type="text" name="tip in percentage" id="tipPercentage" placeholder="Enter tip" class="input is-info is-medium is-rounded">
+  <button id="add" class="button is-primary">Add</button>
+  <span id="personDisplay">1</span>
+  <button id="subtract" class="button is-primary">Subtract</button>
+  <h2>Total Bill Amount including tip</h2>
+  <span id="result">0</span> -->
+
+  <script src="app.js"></script>
+</body>
+</html>
