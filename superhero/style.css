@@ -1,0 +1,64 @@
+body {
+  margin-top: 3rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.superhero__img {
+  display: block;
+  width: 20rem;
+  height: 20rem;
+}
+
+#superheros {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+
+.superhero {
+  margin: 1rem;
+  background-color: rgb(126, 170, 250);
+  text-align: center;
+  box-shadow: 1px 1px 10px 2px black;
+  padding: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.4rem 0.6rem;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.RandBtn {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+#searchForm {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+#superhero__input {
+  padding: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.bold {
+  font-weight: 800;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* border: 1px solid red; */
+  display: block;
+  color: rgb(190, 4, 174);
+}

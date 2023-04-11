@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <style>
+    .highlight {
+      background: #ffc600;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="columns mt-6">
+    <div class="column"></div>
+    <div class="column is-one-third">
+      <article class="panel is-info">
+        <p class="panel-heading">
+          Search For A City or A State
+        </p>
+        <div class="panel-block">
+          <p class="control has-icons-left">
+            <input class="input is-info search" type="text" placeholder="Search">
+          </p>
+        </div>
+        <p class="panel-tabs is-size-4 has-text-weight-bold has-text-link is-uppercase">
+          Results
+        </p>
+        <ul class="suggestions">
+          <li
+            class="panel-block is-flex is-flex-direction-row is-justify-content-space-between is-align-content-center is-align-items-center">
+            Find a city
+          </li>
+          <li
+            class="panel-block is-flex is-flex-direction-row is-justify-content-space-between is-align-content-center is-align-items-center">
+            or A State
+          </li>
+        </ul>
+      </article>
+    </div>
+    <div class="column"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
