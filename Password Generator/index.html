@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/8a0212b0a5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="card">
+    <header class="header">
+      <h1 class="header__heading">Password Generator</h1>
+    </header>
+
+    <!-- Main contain everything -->
+    <main class="main">
+      <div class="password-display">
+        <p class="password"> Display Password</p>
+        <i class="fa-solid fa-copy copyBtn"></i>
+      </div>
+      <p class="passwordcopymsg">Password Copied</p>
+
+      <!-- Act as a container -->
+      <div class="containeverthing">
+
+        <!-- div for character length -->
+        <div class="range-container">
+          <div class="character-length">
+            <label>Character length</label>
+            <span>8</span>
+          </div>
+          <input type="range" class="slider" id="range-selector" min="8" max="16" value="8">
+        </div>
+
+
+        <div class="checkboxes">
+          <div class="checkbox-1 container">
+            <input type="checkbox" name="checkbox" id="uppercaseletters" class="checkbox">
+            <label for="uppercaseletters">Include Upper Case Letters</label>
+          </div>
+          <div class="checkbox-2 container">
+            <input type="checkbox" name="checkbox" id="lowercaseletters" class="checkbox">
+            <label for="lowercaseletters">Include Lower Case Letters</label>
+          </div>
+          <div class="checkbox-3 container">
+            <input type="checkbox" name="checkbox" id="numbers" class="checkbox">
+            <label for="numbers">Include Numbers</label>
+          </div>
+          <div class="checkbox-4 container">
+            <input type="checkbox" name="checkbox" id="symbols" class="checkbox">
+            <label for="symbols">Include Symbols</label>
+          </div>
+        </div>
+        <div class="display-password-strength">
+          <p>Strength</p>
+          <p class="show-strength"></p>
+          <div class="spans">
+            <span class="span" id="span1"></span>
+            <span class="span"></span>
+            <span class="span"></span>
+            <span class="span"></span>
+          </div>
+        </div>
+        <button class="button">Generate <i class="fa-solid fa-arrow-right fa-xs"></i></button>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
